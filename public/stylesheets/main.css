@@ -1,0 +1,28 @@
+
+/* hamburger menu */
+#bar1, #bar2, #bar3{
+    background: #262626;
+    transition: 0.4s;
+}
+
+.change #bar1{
+    -webkit-transform: rotate(-45deg) translate(-4px, 4px);
+    transform: rotate(-45deg) translate(-4px, 4px);
+}
+
+.change #bar2 {opacity: 0;}
+
+.change #bar3 {
+    -webkit-transform: rotate(45deg) translate(-5px, -5px);
+    transform: rotate(45deg) translate(-5px, -5px);
+}
+
+/* Navbar */
+#nav-menu{
+    background: #ff0080;
+    color: #da6969;
+}
+
+#navbar li a{
+    color: #262626;
+}
