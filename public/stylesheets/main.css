@@ -33,7 +33,7 @@
     transition: width 2s, height 4s;
 }
 
-.navbar-header{
+.navbar-brand{
     font-family: 'Satisfy', cursive;
     font-size: 40px;
 }
