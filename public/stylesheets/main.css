@@ -20,9 +20,20 @@
 /* Navbar */
 #nav-menu{
     background: #ff0080;
-    color: #da6969;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #navbar li a{
     color: #262626;
+}
+
+#navbar li a:hover{
+    -webkit-transition: width 2s, height 4s; /* Safari */
+    transition: width 2s, height 4s;
+}
+
+.navbar-header{
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
 }
