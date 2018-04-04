@@ -10,9 +10,15 @@
         <script src="../public/scripts/main.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"></script>
     </head>
     <body>
         <!-- Navbar -->
+        <nav class="navbar" id="brand">
+            <div class="container text-center">
+                <h1><a class="christmas-gold" href="index.html">Glowing Gracefully</a></h1>
+            </div>
+        </nav>
         <nav class="navbar" id="nav-menu">
             <div class="container-fluid">
                 <!-- Hamburger Menu -->
@@ -23,30 +29,67 @@
                         <span class="icon-bar" id="bar2"></span>
                         <span class="icon-bar" id="bar3"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Brand</a>
                 </div>
                 <!-- Navbar buttons -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right" id="navbar">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Contact Me</a></li>
+                    <ul class="nav navbar-nav" id="navbar">
+                        <li><a class="navlink un" href="index.html">Home</a></li>
+                        <li><a class="navlink un" href="#">About Me</a></li>
+                        <li><a class="navlink un" href="#">Products</a></li>
+                        <li><a class="navlink un" href="#">Contact Me</a></li>
                     </ul>
+                     
                 </div>
-                
             </div>
             
         </nav>
-        <div class="container">
-            <h1>Welcome</h1>
+        <div class="container-fluid">
+            <div class="row text-center" id="header-slogan">
+                <h1>Caption Needed Here</h1>
+            </div>
+            <!-- middle grid -->
+            <div class="row">
+                <div class="col-md-4 grid-padding">
+                    <h1 class="text-center grid-header-font">Specials</h1>
+                    <a>
+                        <img src="https://img.aws.livestrongcdn.com/ls-article-image-673/ds-photo/getty/article/176/229/113565772.jpg">
+                    </a>
+                    <p>Fusce eu sem rhoncus, consectetur metus at, viverra nibh. Curabitur accumsan porttitor metus et tempor. Nullam id dignissim elit, vitae ultrices ipsum. Ut sit amet justo a dolor condimentum posuere ultrices non odio.</p>
+                </div>
+                <div class="col-md-4 grid-padding">
+                    <h1 class="text-center grid-header-font">Popular Items</h1>
+                    <a>
+                        <img src="https://healthybutsmart.com/wp-content/uploads/2017/08/Sheabutter-virginsheabutter-min.jpg">
+                    </a>
+                    <p>Fusce eu sem rhoncus, consectetur metus at, viverra nibh. Curabitur accumsan porttitor metus et tempor. Nullam id dignissim elit, vitae ultrices ipsum. Ut sit amet justo a dolor condimentum posuere ultrices non odio.</p>
+                </div>
+                <div class="col-md-4 grid-padding">
+                    <h1 class="text-center grid-header-font">New Products</h1>
+                    <a>
+                        <img src="https://img.aws.livestrongcdn.com/ls-article-image-673/ds-photo/getty/article/176/229/113565772.jpg">
+                    </a>
+                    <p>Fusce eu sem rhoncus, consectetur metus at, viverra nibh. Curabitur accumsan porttitor metus et tempor. Nullam id dignissim elit, vitae ultrices ipsum. Ut sit amet justo a dolor condimentum posuere ultrices non odio.</p>
+                </div>
+            </div>
         </div>
         
         <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
-                <div class="footer-copyright py-3 text-center">
-                    © 2018 Copyright:
-                    <a href="https://mdbootstrap.com/material-design-for-bootstrap/"> MDBootstrap.com </a>
+            <div>
+                <div class="text-center" id="footer-style-1">
+                    <div class="big-icon text-center">
+                        <a class="christamas-gold" href="https://www.facebook.com/andranise.flowers"><i class="fab fa-facebook-square"></i></a>
+                    </div>
+                    <div class="big-icon text-center">
+                        <a href="https://www.instagram.com/_heavenkissd/"><i class="fab fa-instagram"></i></a>                        
+                    </div>
                 </div>
+                <div class="footer-copyright py-3 text-center" id="footer-style-2">
+                    © 2018 Copyright: Glowing Gracefully LLC<br>
+                    Created by <a href="http://www.checkthamethod.com/">Bryan Harris</a>
+                </div>
+                 
+            </div>
+                  
         </footer>
     </body>
 </html>

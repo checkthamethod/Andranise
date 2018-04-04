@@ -18,22 +18,144 @@
 }
 
 /* Navbar */
+#brand{
+    font-family: 'Satisfy', cursive;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background: #262626;
+    margin: 0;
+}
+
+#brand div h1 a{
+    text-decoration: none;
+    color: #FFDF00;
+}
+
 #nav-menu{
     background: #ff0080;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    margin: 0;
 }
 
 #navbar li a{
     color: #262626;
+    font-size: 2em;
+    font-family: 'Satisfy', cursive;
+    transition: color 0.5s ease;
 }
 
+
+
 #navbar li a:hover{
-    -webkit-transition: width 2s, height 4s; /* Safari */
-    transition: width 2s, height 4s;
+    color: rgb(248, 247, 247);
+    background-color: #ff0080;
+    
+    
+}
+#navbar li a:active{
+    background-color: #ff0080;
+}
+
+.un{
+    display:inline-block;
+    }
+    .un:after{
+    content:'';
+    width:0px;
+    height:5px;
+    display:block;
+    background:rgb(248, 247, 247);
+    transition: all .5s ease-in;
+    }
+    .un:hover:after{
+    width:100%;
+}
+
+/* glitter animation */
+.christmas-gold {
+	color: #D81E1E;
+  
+    color: gold;
+    background: -webkit-linear-gradient(transparent, transparent), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/191814/gold_glitter.gif) repeat;
+    background: -o-linear-gradient(transparent, transparent) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    margin: 0;
+    padding: 0;
+
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    z-index: 999999;
+    -webkit-background-clip: text;
+}
+
+/* icon size */
+.big-icon{
+    text-decoration: none;
+    display: inline;
+    font-size: 32px;
+    color: #262626;
+    margin-left: 30px;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+.big-icon a{
+    color: rgb(207, 176, 0);
 }
 
 .navbar-brand{
     font-family: 'Satisfy', cursive;
     font-size: 40px;
 }
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+    .navbar .navbar-collapse {
+    text-align: center;
+}
+
+/* main menu */
+#header-slogan{
+    font-family: 'Satisfy', cursive;
+}
+
+/* middle grid */
+.grid-header-font{
+    font-family: 'Satisfy', cursive;
+}
+
+.grid-padding{
+    padding: 50px;
+}
+
+a img{
+    max-height:317px; max-width:100%;
+}
+p{
+    padding-top: 5px;
+}
+/* footer */
+#footer-style-1{
+    background-color: #262626;
+    color: rgb(248, 247, 247);;
+    margin: 0;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+#footer-style-2{
+    background-color: #262626e1;
+    color: rgb(248, 247, 247);;
+    margin: 0;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+
