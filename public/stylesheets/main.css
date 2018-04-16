@@ -1,3 +1,11 @@
+body, html {
+    height: 100%;
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 15px;
+}
 
 /* hamburger menu */
 #bar1, #bar2, #bar3{
@@ -19,29 +27,30 @@
 
 /* Navbar */
 #brand{
-    font-family: 'Satisfy', cursive;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    background: #262626;
+    font-family: 'Pacifico', cursive;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background: black;
     margin: 0;
 }
 
 #brand div h1 a{
     text-decoration: none;
     color: #FFDF00;
+    font-size: 100px;
 }
 
 #nav-menu{
     background: #ff0080;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 1vh;
+    /* padding-bottom: 1vh; */
     margin: 0;
 }
 
 #navbar li a{
     color: #262626;
     font-size: 2em;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     transition: color 0.5s ease;
 }
 
@@ -70,6 +79,11 @@
     }
     .un:hover:after{
     width:100%;
+}
+
+#caption{
+    padding-top: 20px;
+    color: white;
 }
 
 /* glitter animation */
@@ -108,7 +122,7 @@
 }
 
 .navbar-brand{
-    font-family: 'Satisfy', cursive;
+    font-family: 'Pacifico', cursive;
     font-size: 40px;
 }
 
@@ -118,18 +132,70 @@
     vertical-align: top;
 }
 
-    .navbar .navbar-collapse {
+.navbar .navbar-collapse {
     text-align: center;
+}
+
+/* parallax */
+
+.parallax{
+    /* The image used */
+    background-image: url("../img/people woman afro close eyes/people woman afro close eyes.svg");
+    background-color: white;
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallax2{
+    /* The image used */
+    background-image: url("../img/andranise_products.jpg");
+    background-color: black;
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+    .parallax2{
+        background-attachment: scroll;
+    }
+}
+
+.slide_imgs{
+    max-width: 100%;
+    max-height: 1080px;
 }
 
 /* main menu */
 #header-slogan{
-    font-family: 'Satisfy', cursive;
+    font-family: 'Pacifico', cursive;
 }
 
 /* middle grid */
+.middle-grid{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
 .grid-header-font{
-    font-family: 'Satisfy', cursive;
+    font-family: 'Pacifico', cursive;
+    padding-bottom: 50px;
 }
 
 .grid-padding{
@@ -137,25 +203,26 @@
 }
 
 a img{
-    max-height:317px; max-width:100%;
+    max-height:317px;
+    max-width:100%;
 }
-p{
-    padding-top: 5px;
-}
+
 /* footer */
 #footer-style-1{
-    background-color: #262626;
+    background-color: black;
     color: rgb(248, 247, 247);;
     margin: 0;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #footer-style-2{
-    background-color: #262626e1;
+    background-color: #262626;
     color: rgb(248, 247, 247);;
     margin: 0;
     padding-top: 2vh;
     padding-bottom: 2vh;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 
