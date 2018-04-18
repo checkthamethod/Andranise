@@ -7,6 +7,18 @@ p{
     padding-top: 15px;
 }
 
+h1{
+    font-family: 'Pacifico', cursive;
+}
+
+.primary-fontchange{
+    font-family: 'Pacifico', cursive;
+}
+
+ul{
+    list-style-type: none;
+}
+
 /* hamburger menu */
 #bar1, #bar2, #bar3{
     background: #262626;
@@ -226,3 +238,26 @@ a img{
 }
 
 
+/* ==========================================ABOUT========================================== */
+
+#About div{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+#About div div h1{
+    font-family: 'Pacifico', cursive;
+}
+
+.secondary-fontchange{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* ==========================================CONTACT========================================== */
+#contact-div{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+#contact-form{
+    padding: 5vh 10vw;
+}
